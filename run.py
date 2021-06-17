@@ -37,7 +37,7 @@ def hasil(ngocok,ismylife):
 		exit()
 	else:exit("\n\n\x1b[1;31m[!] Tidak Mendapatkan Hasil:(")
 # mohon untuk tidak merubah nama pembuatnya:)
-yeahh=random.choice(["Roni Wijaya","Kang Pacman"])
+yeahh=random.choice(["Aap Afandi ID","Kang Pacman"])
 def logo():
 	os.system("clear")
 	print(f"""          ╔╦╗┌┐ ┌─┐  ╔═╗┌┐ v.1.1
