@@ -499,7 +499,7 @@ class ngentod:
 				print(tOd)
 			exit()
 		elif pilih in["r","R"]:
-			print("[*] Silahkan Hubungi WhatsApp Saya 083805812588");os.system("xdg-open http://wa.me/+6283805812588?text=assalamualaikum");input("[*] Enter Untuk Kembali Ke Menu > ");waktu(2);self.menu()
+			print("[*] Silahkan Hubungi WhatsApp Saya 08811403654");os.system("xdg-open http://wa.me/+628811403654?text=assalamualaikum");input("[*] Enter Untuk Kembali Ke Menu > ");waktu(2);self.menu()
 		elif pilih in["u","U"]:
 			os.system("git pull")
 			exit()
@@ -777,14 +777,14 @@ if __name__=="__main__":
 		kueh=zxss(open("lo_ngentod/cookie","r").read().strip())
 	except FileNotFoundError:
 		os.system("clear")
-		print("\n[*] Cara Mendapatkan Cookie : https://youtu.be/ZT4MU7AlgA4\n[*] Ketik OPEN Untuk Membuka Video\n")
+		print("\n[*] Cara Mendapatkan Cookie : https://www.youtube.com/watch?v=jfcC99dkEAo\n[*] Ketik OPEN Untuk Membuka Video\n")
 		while True:
 			a=input("[?] Masukkan Cookie : ")
 			if a in[""," "]:
 				print("[!] Jangan Kosong")
 			elif a in["open","OPEN","Open"]:
 				import subprocess
-				exit(subprocess.Popen(["am","start","https://youtu.be/ZT4MU7AlgA4"],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
+				exit(subprocess.Popen(["am","start","https://www.youtube.com/watch?v=jfcC99dkEAo"],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
 			else:
 				asup(a).login()
 	try:
